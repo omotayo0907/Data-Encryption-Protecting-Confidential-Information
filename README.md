@@ -43,25 +43,39 @@ To secure data transmitted over a network, RSA (Rivest-Shamir-Adleman) encryptio
    cd File_encryption_project
 ```
 
-### Generating Keys
-1. Generate RSA keys if not already present:
-   ```bash
-   python3 keygen.py
-   ```
+### Data At Rest
 
-### Running the Server
-1. Start the server to listen for incoming connections:
-   ```bash
-   python3 server.py
-   ```
+## Generating Keys
 
-### Running the Client
-1. Open a new terminal window and run the client:
-   ```bash
-   python3 client.py
-   ```
+Generate RSA keys if not already present:
 
-### Using the Applications
-- **Server**: Click "Receive Encrypted File" to wait for files from the client. After receiving a file, use the "Decrypt Received File" button to manually decrypt it.
-- **Client**: Click "Send Encrypted File" to select and send a file to the server.
+- Run the command 
 
+python3 keygen.py
+
+click on the encrypt file button, select the file you want to encrypt and it automatically encrypts amd saves it. 
+to decrypt it, click on the decrypt file button. and it decrypts it.
+
+### Data In Transit
+
+## Running the Server
+
+Start the server to listen for incoming connections by running the command 
+
+python3 server.py
+
+
+
+## Running the Client
+
+Open a new terminal window and run the client by using the command;
+
+python3 client.py
+
+
+
+## Using the Applications
+
+Client: Click "Send Encrypted File" to select and send a file to the server.
+
+Server: Click "Receive Encrypted File" to wait for files from the client. After receiving a file, use the "Decrypt Received File" button to manually decrypt it.
