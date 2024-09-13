@@ -54,7 +54,8 @@ Generate RSA keys if not already present:
 python3 keygen.py
 
 click on the encrypt file button, select the file you want to encrypt and it automatically encrypts amd saves it. 
-to decrypt it, click on the decrypt file button. and it decrypts it.
+
+To decrypt it, click on the decrypt file button. and it decrypts it.
 
 ### Data In Transit
 
