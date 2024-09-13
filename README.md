@@ -52,13 +52,13 @@ To secure data transmitted over a network, RSA (Rivest-Shamir-Adleman) encryptio
 ### Running the Server
 1. Start the server to listen for incoming connections:
    ```bash
-   python3 server_gui.py
+   python3 server.py
    ```
 
 ### Running the Client
 1. Open a new terminal window and run the client:
    ```bash
-   python3 client_gui.py
+   python3 client.py
    ```
 
 ### Using the Applications
